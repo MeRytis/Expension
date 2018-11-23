@@ -5,7 +5,7 @@
       <element id="archive" name="Expenses.jar">
         <element id="module-output" name="Expenses" />
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/src/main/java/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/MANIFEST.MF" />
         </element>
       </element>
     </root>

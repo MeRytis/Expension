@@ -29,7 +29,7 @@ class Storage {
                     break;
                 }
                 String item = buffer.readLine();
-                wallet.add(new Entry(Integer.parseInt(sum), item), false);
+                wallet.add(new Entry(Integer.parseInt(sum), item));
             }
 
         } catch (IOException e) {

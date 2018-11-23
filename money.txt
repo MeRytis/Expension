@@ -1,0 +1,14 @@
+10
+Atlyginimas
+20
+Atlyginimas
+-10
+Pirkinys
+40
+Atlyginimas
+-30
+Pirkinys
+50
+Atlygininmas
+-100
+Pirkinys

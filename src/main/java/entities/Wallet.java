@@ -15,18 +15,24 @@ public class Wallet {
     /**
      * Islaidų/Pajamu pridejimas i sarasa
      * @param entry viena operacija
-     * @param isExpense islaidos pozymis
      */
-    public void add(Entry entry, boolean isExpense) {
-        if (isExpense) {
-            int sum = entry.getSum();
-            sum*= -1;
-            entry.setSum(sum);
-        }
+    public void add(Entry entry) {
         list.add(entry);
     }
 
     public ArrayList<Entry> getList() {
         return list;
+    }
+
+    /**
+     * Balanso skaiciavimas
+     * @return balansas
+     */
+    public int getBalance() {
+        int sum = 0;
+        for (Entry entry : list) {
+            sum += entry.getSum();
+        }
+        return sum;
     }
 }
